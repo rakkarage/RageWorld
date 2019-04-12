@@ -1,2 +1,2 @@
 sudo dotnet publish -c Release -o /var/www/html/chat
-~/restart.sh
+sudo systemctl restart nginx
