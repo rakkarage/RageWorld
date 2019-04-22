@@ -3,7 +3,7 @@ Description=Chat Test Blah Blah Blah
 
 [Service]
 WorkingDirectory=/var/www/html/Chat
-ExecStart=/usr/bin/dotnet /var/www/html/Chat/NewTestChat/NewTestChat.dll
+ExecStart=/usr/bin/dotnet /var/www/html/chat/NewTestChat.dll
 Restart=always
 RestartSec=10
 KillSignal=SIGINT
